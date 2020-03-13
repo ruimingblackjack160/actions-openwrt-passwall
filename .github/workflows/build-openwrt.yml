@@ -13,10 +13,10 @@ on:
     types: [published]
    push:
      branches:
-       dev-master
+       -master
      paths:
-       - 'ab.config'
-  schedule:
+       - '.config'
+   schedule:
      - cron:0008
    watch:
      types: [started]
